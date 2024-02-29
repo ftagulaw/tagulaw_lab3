@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.border-container {
+    display: flex;
+    justify-content: center;
+}
+
+.border-container > div {
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Animal {
+    border: 5px solid #00a5e3;
+    border-top-color: #FF5768;
+    border-bottom-color:#88D7BF;
+    border-left-style: dotted;
+    border-right-style: dashed;
+}
+
+.Month {
+    border: 5px solid #ffd872;
+    border-top-color: #6c88c4;
+    border-bottom-color:#e77577;
+    border-left-style: dotted;
+    border-right-style: dashed;
+}
+
+.Country {
+    border: 5px solid greenyellow;
+    border-top-color: #c05780;
+    border-bottom-color:gray;
+    border-left-style: dotted;
+    border-right-style: dashed;
+}
+
+.Food {
+    border: 5px solid rgb(20, 75, 147);
+    border-top-color: orange;
+    border-bottom-color:hotpink;
+    border-left-style: dotted;
+    border-right-style: dashed;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
